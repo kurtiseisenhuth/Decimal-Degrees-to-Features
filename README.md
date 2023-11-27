@@ -42,11 +42,11 @@ pip install -r requirements.txt
 The script outputs a CSV file and, if the specified output location is a geodatabase, a feature class within the geodatabase.
 
 ## Note
-Ensure that all required dependencies are installed, and the script is executed within an environment with access to an ArcGIS installation.
+- Ensure that all required dependencies are installed, and the script is executed within an environment with access to an ArcGIS installation.
 
-Feel free to contribute to this project by submitting issues or pull requests.
+- Feel free to contribute to this project by submitting issues or pull requests.
 
-Make sure to replace `"your-username"` and `"decimal-degrees-to-features"` with your GitHub username and repository name, respectively. The users can now install the required libraries using the `pip install -r requirements.txt` command.
+- Make sure to replace `"your-username"` and `"decimal-degrees-to-features"` with your GitHub username and repository name, respectively. The users can now install the required libraries using the `pip install -r requirements.txt` command.
 
 
 
