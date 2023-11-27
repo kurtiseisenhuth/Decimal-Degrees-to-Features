@@ -5,7 +5,7 @@ Date: November 16, 2023
 
 ## Overview
 
-This is a coordinate conversion tool developed in Python using the ArcPy library. It supports conversion between various coordinate systems, including DMS, DDM, UTM, MGRS, and USNG. The use of this tool in ArcGIS Pro allows the user to upload a .csv of coordinates to convert to decimal degrees - once converted, the tool exports a .csv of the converted coordinates, along with a shapefile or feature class of the plotted coordinates. 
+This is a coordinate conversion tool developed in Python using the ArcPy library. It supports conversion between various coordinate systems, including DMS, DDM, UTM, MGRS, and USNG. The use of this tool in ArcGIS Pro allows the user to upload a .csv of coordinates to convert to decimal degrees. Once converted, the tool exports a .csv of the converted coordinates, along with a shapefile or feature class of the plotted coordinates. The use of `Decimal Degrees to Features SCRIPT.py` in an IDE or open source web notebook allows the user to convert coordinates in a .csv to decimal degrees, then exports the converted values to a .csv, along with a shapefile to a local file.
 
 ## Prerequisites
 
