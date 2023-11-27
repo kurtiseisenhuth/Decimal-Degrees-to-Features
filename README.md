@@ -15,6 +15,7 @@ This is a coordinate conversion tool developed in Python using the ArcPy library
 - Pandas
 - MGRS library
 - PyProj library
+- IDE or Open Source Web Notebook (optional)
 
 ## Supported Formats
 
@@ -39,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ## Output
-The script outputs a CSV file and, if the specified output location is a geodatabase, a feature class within the geodatabase.
+If using the tool in ArcGIS Pro, the script outputs a .csv file and, if the specified output location is a geodatabase, a feature class within the geodatabase (both the exported .csv file and feature class will be pushed to the geodatabase). If using the tool as a standalone script, it will ouput a .csv file and shapefile in the locations you update in the script (Lines 113, 168, and 169).
 
 ## Note
 - Ensure that all required dependencies are installed, and the script is executed within an environment with access to an ArcGIS installation.
