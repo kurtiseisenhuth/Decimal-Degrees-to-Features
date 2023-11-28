@@ -17,7 +17,7 @@ This is a coordinate conversion tool developed in Python using the ArcPy library
 - PyProj library 3.6.1
 - IDE or Open Source Web Notebook (optional)
 
-## Supported Input Coordinate Formats
+## Supported Input Coordinate Formats and Column Headers
 
 - DMS (Degrees, Minutes, Seconds - 'Latitude' and 'Longitude')
 - DDM (Decimal Degrees, Minutes - 'Latitude' and 'Longitude')
