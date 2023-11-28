@@ -42,6 +42,21 @@ cd decimal-degrees-to-features
  
 2. Install the required libraries using pip and the requirements.txt file. Make sure you have Python and 'pip' already installed, and that you have changed the directory to the location of the text file.
 
+If pip is not already on your machine, navigate to your Python command prompt and enter: 
+
+```bash
+python3 get-pip.py
+```
+Change the directory in you Python command prompt to the location of where you downloaded the Decimal-Degrees-to-Features files:
+
+Example: 
+
+```bash
+cd "C:/Users/to/files..."
+```
+
+Install required packages: 
+
 ```bash
 pip install -r requirements.txt
 ```
