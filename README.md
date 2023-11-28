@@ -55,7 +55,7 @@ Example:
 cd "C:/Users/to/files..."
 ```
 
-Install required packages: 
+Once you are in the new directory, install the required packages: 
 
 ```bash
 pip install -r requirements.txt
