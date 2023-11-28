@@ -141,10 +141,6 @@ def convert_coordinates(input_file, csv_output_file, shapefile_output_file, inpu
         df['Latitude_DD'], df['Longitude_DD'] = convert_mgrs_to_decimal(df['Location'])
     elif input_format.lower() == 'usng':
         df['Latitude_DD'], df['Longitude_DD'] = convert_usng_to_decimal(df['Location'])
-    elif input_format.lower() == 'gar':
-        df['Latitude_DD'], df['Longitude_DD'] = convert_gar_to_decimal(df['Location'])
-    elif input_format.lower() == 'wgrs':
-        df['Latitude_DD'], df['Longitude_DD'] = convert_wgrs_to_decimal(df['Location'])
     elif input_format.lower() == 'utm':
         df[['Latitude_DD', 'Longitude_DD']] = df.apply(
             lambda row: convert_utm_to_decimal(row['Easting'], row['Northing'], row['Zone_Hemisphere']),
