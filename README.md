@@ -47,7 +47,7 @@ If pip is not already on your machine, navigate to your Python command prompt an
 ```bash
 python3 get-pip.py
 ```
-Change the directory in you Python command prompt to the location of where you downloaded the Decimal-Degrees-to-Features files:
+Change the directory in your Python command prompt to the location of where you downloaded the Decimal-Degrees-to-Features files:
 
 Example: 
 
