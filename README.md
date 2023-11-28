@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 ## Output
-This tool converts various input coodrinates to decimal degrees. If using the tool in ArcGIS Pro, the script outputs a .csv file and, if the specified output location is a geodatabase, a feature class within the geodatabase (both the exported .csv file and feature class will be pushed to the geodatabase). If using the tool as a standalone script, it will ouput a .csv file and shapefile to the locations you update in the script (Lines 113, 168, and 169).
+This tool converts various input coordinates to decimal degrees. If using the tool in ArcGIS Pro, the script outputs a .csv file and, if the specified output location is a geodatabase, a feature class within the geodatabase (both the exported .csv file and feature class will be pushed to the geodatabase). If using the tool as a standalone script, it will ouput a .csv file and shapefile to the locations you update in the script (Lines 113, 168, and 169).
 
 ## Notes
 - This is the current state of the tool as of November 2023. Next steps will involve introducing exception handling for errors in input coordinates.
