@@ -17,22 +17,29 @@ This is a coordinate conversion tool developed in Python using the ArcPy library
 - PyProj library
 - IDE or Open Source Web Notebook (optional)
 
-## Supported Formats
+## Supported Input Coordinate Formats
 
-- DMS (Degrees, Minutes, Seconds)
-- DDM (Decimal Degrees, Minutes)
-- UTM (Universal Transverse Mercator)
-- MGRS (Military Grid Reference System)
-- USNG (United States National Grid)
+- DMS (Degrees, Minutes, Seconds - 'Latitude' and 'Longitude')
+- DDM (Decimal Degrees, Minutes - 'Latitude' and 'Longitude')
+- UTM (Universal Transverse Mercator - 'Easting', 'Northing', and 'Zone_Hemisphere' [UTM Zone and Hemispheric Identifier Combined])
+- MGRS (Military Grid Reference System - 'Location')
+- USNG (United States National Grid - 'Location')
+
+## Files:
+- requirements.txt - requisite package installation file
+- Decimal Degrees to Features SCRIPT.py - Python file for use in an IDE or open source web notebook (Jupyter Notebook)
+- DecimalDegreesToFeatures.zip - .atbx file for use in ArcGIS Pro (Python script embedded)
+- Test Data.zip - .csv files containing supported input coordinates for testing
 
 ## Usage 
 
-1. Clone the repository and/or download all relevant files (ADD RELEVANT FILE NAMES).
+1. Clone the repository and/or download all relevant files.
 
 ```bash
 git clone https://github.com/kurtiseisenhuth/decimal-degrees-to-features.git
 cd decimal-degrees-to-features
 ```
+ 
 2. Install the required libraries using pip and the requirements.txt file. Make sure you have Python and 'pip' already installed, and that you have changed the directory to the location of the text file.
 
 ```bash
