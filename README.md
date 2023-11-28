@@ -25,7 +25,7 @@ This is a coordinate conversion tool developed in Python using the ArcPy library
 - MGRS (Military Grid Reference System - 'Location')
 - USNG (United States National Grid - 'Location')
 
-## Files:
+## Files
 - requirements.txt - requisite package installation file
 - Decimal Degrees to Features SCRIPT.py - Python file for use in an IDE or open source web notebook (Jupyter Notebook)
 - DecimalDegreesToFeatures.zip - .atbx file for use in ArcGIS Pro (Python script embedded)
