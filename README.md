@@ -5,7 +5,7 @@ Date: November 16, 2023
 
 ## Overview
 
-This is a coordinate conversion tool developed in Python using the ArcPy library. It supports conversion between various coordinate systems, including DMS, DDM, UTM, MGRS, and USNG. The use of this tool in ArcGIS Pro allows the user to upload a .csv of coordinates to convert to decimal degrees. Once converted, the tool exports a .csv of the converted coordinates, along with a shapefile or feature class of the plotted coordinates. The use of `Decimal Degrees to Features SCRIPT.py` in an IDE or open source web notebook allows the user to convert coordinates in a .csv to decimal degrees, then exports the converted values to a .csv, along with a shapefile to a local file.
+This is a coordinate conversion tool developed in Python using the ArcPy library. It supports conversion between various coordinate systems, including DMS, DDM, UTM, MGRS, and USNG to DD. The use of this tool in ArcGIS Pro allows the user to upload a .csv of coordinates to convert to decimal degrees. Once converted, the tool exports a .csv of the converted coordinates, along with a shapefile or feature class of the plotted coordinates. The use of `Decimal Degrees to Features SCRIPT.py` in an IDE or open source web notebook allows the user to convert coordinates in a .csv to decimal degrees, then exports the converted values to a .csv, along with a shapefile to a local file.
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 ## Output
-If using the tool in ArcGIS Pro, the script outputs a .csv file and, if the specified output location is a geodatabase, a feature class within the geodatabase (both the exported .csv file and feature class will be pushed to the geodatabase). If using the tool as a standalone script, it will ouput a .csv file and shapefile to the locations you update in the script (Lines 113, 168, and 169).
+This tool converts various input coodrinates to decimal degrees. If using the tool in ArcGIS Pro, the script outputs a .csv file and, if the specified output location is a geodatabase, a feature class within the geodatabase (both the exported .csv file and feature class will be pushed to the geodatabase). If using the tool as a standalone script, it will ouput a .csv file and shapefile to the locations you update in the script (Lines 113, 168, and 169).
 
 ## Notes
 - This is the current state of the tool as of November 2023. Next steps will involve introducing exception handling for errors in input coordinates.
