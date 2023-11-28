@@ -9,12 +9,12 @@ This is a coordinate conversion tool developed in Python using the ArcPy library
 
 ## Prerequisites
 
-- Python
+- Python 3.9.16
 - ArcGIS Pro 3.1.0 (with ArcPy library)
-- NumPy
-- Pandas
-- MGRS library
-- PyProj library
+- NumPy 1.20.0
+- Pandas 1.4.4
+- MGRS library 1.4.5
+- PyProj library 3.6.1
 - IDE or Open Source Web Notebook (optional)
 
 ## Supported Input Coordinate Formats
